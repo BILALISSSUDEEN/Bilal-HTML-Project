@@ -1,0 +1,97 @@
+header{
+    color: white;
+    background-color: lawngreen;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+header .navs a{
+    color: white;
+    font-weight: bold;
+}
+.collapse{
+    margin-right: 150px;
+}
+.collapse ul li a{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+section.home{
+    padding-top: 100px;
+    min-height: 100vh;
+   
+}
+section.home-content p{
+    font-size: 15px;
+}
+section.home .home-img{
+    justify-content: end;
+}
+section.home .home-content h1 span.firstname{
+    color: green;
+}
+section.home .home-content h1 span.lastname{
+    color: orangered;
+}
+section.home button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+section.home button{
+    background-color: orangered;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+section.about{
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+section.about h1{
+    font-size: 40px;
+}
+section.about p{
+    font-size: 25px;
+    text-align: justify;
+}
+section.services{
+    padding-top: 100px;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+section.services h1{
+    text-align: center;
+    font-size: 40px;
+}
+.card{
+    position: relative;
+    padding-bottom:100px;
+}
+section.contact{
+    background-color: rgb(16, 231, 199);
+    min-height: 100vh;
+    padding-top: 100px;
+}
+section.contact h1{
+    text-align: center;
+    color: white;
+
+}
+section.contact .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: orangered;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    min-height: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
